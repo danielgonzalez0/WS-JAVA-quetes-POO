@@ -4,6 +4,7 @@ public class Car extends Vehicle{
         super(brand, kilometers);
     }
 
+    @Override
     public String doStuff(){
         return "je suis " + this.getBrand() + " et je fais vroum vroum !";
     }
